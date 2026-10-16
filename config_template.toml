@@ -1,0 +1,15 @@
+[ai]
+model = "gemma4"
+base_url = "http://localhost:11434"
+temperature = 0.7
+timeout_seconds = 60
+
+[reading]
+words_per_minute = 200
+quiz_questions = 3
+min_chunk_words = 200
+max_chunk_words = 1500
+
+[display]
+theme = "dark"
+show_page_numbers = true
